@@ -1,0 +1,107 @@
+/*------------- ROOT -------------*/
+:root {
+  --accent-color: #2196f3;
+  --logo-color: #2196f3;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/*------------- HEADER -------------*/
+.header {
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19x;
+  letter-spacing: 0.03e;
+  color: #000000;
+}
+.header-logo-color {
+  color: var(--logo-color);
+}
+
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14x;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-item:hover,
+.header-item:focus {
+  color: var(--accent-color);
+}
+
+.header-comunication {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14x;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-comunication:hover,
+.header-comunication:hover:focus {
+  color: var(--accent-color);
+}
+
+/*------------- HERO -------------*/
+
+.hero {
+  background: #2f303a;
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+}
+
+/*------------- advantage -------------*/

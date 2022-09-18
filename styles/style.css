@@ -19,7 +19,6 @@
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -105,3 +104,117 @@ body {
 }
 
 /*------------- advantage -------------*/
+
+.advantage-top-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.advantage-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*------------- action -------------*/
+.action {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.action-img {
+}
+
+/*------------- team -------------*/
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18x;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*------------- footer -------------*/
+
+.adres {
+  background: #757575;
+}
+.adres-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.adres-contacts-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*************** PORFOLIO ****************/
+
+/*------------- filtre -------------*/
+
+.filtre-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  width: 103px;
+  height: 38px;
+  left: 846px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.filtre-btn:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.filtre-btn:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.portfolio-top-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

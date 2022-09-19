@@ -1,9 +1,14 @@
 /*------------- ROOT -------------*/
 :root {
+  --main-font: 'Roboro', sans-serif;
   --accent-color: #2196f3;
   --logo-color: #2196f3;
+  --logo-color-2: #000000;
+  --top-text-color: #212121;
+  --text-color: #757575;
+  --contrast-color: #ffffff;
 }
-
+/*------------- reset -------------*/
 .link {
   text-decoration: none;
 }
@@ -25,19 +30,21 @@
   overflow: hidden;
 }
 
+/*------------- ALL -------------*/
 body {
   font-family: var(--main-font);
+  letter-spacing: 0.03em;
 }
 
 /*------------- HEADER -------------*/
 .header {
 }
 .header-logo {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19x;
-  letter-spacing: 0.03e;
-  color: #000000;
+  line-height: 1.19;
+  color: var(--logo-color-2);
 }
 .header-logo-color {
   color: var(--logo-color);
@@ -45,34 +52,33 @@ body {
 
 .header-item {
 }
-.header-link {
+.header-nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14x;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--top-text-color);
 }
 
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
 }
-.header-item:hover,
-.header-item:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: var(--accent-color);
 }
 
-.header-comunication {
+.header-contacs {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14x;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
 }
 
-.header-comunication:hover,
-.header-comunication:hover:focus {
+.header-contacs:hover,
+.header-contacs:focus {
   color: var(--accent-color);
 }
 
@@ -81,14 +87,14 @@ body {
 .hero {
   background: #2f303a;
 }
-.hero-text {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--contrast-color);
 }
 
 .hero-button {
@@ -99,27 +105,27 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--contrast-color);
   background: #2196f3;
 }
 
 /*------------- advantage -------------*/
 
-.advantage-top-text {
+.advantage-title-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--top-text-color);
 }
 .advantage-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 /*------------- action -------------*/
@@ -129,7 +135,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--top-text-color);
 }
 .action-img {
 }
@@ -142,7 +148,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--top-text-color);
 }
 .team-position {
   font-weight: 400;
@@ -151,20 +157,20 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text-color);
 }
 
 /*------------- footer -------------*/
 
 .adres {
-  background: #757575;
+  background: var(--text-color);
 }
 .adres-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--contrast-color);
 }
 .adres-contacts-link {
   font-weight: 400;
@@ -184,7 +190,7 @@ body {
   line-height: 1.62px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--top-text-color);
   width: 103px;
   height: 38px;
   left: 846px;
@@ -194,12 +200,12 @@ body {
 }
 
 .filtre-btn:hover {
-  color: #ffffff;
+  color: var(--contrast-color);
   background: #2196f3;
 }
 
 .filtre-btn:focus {
-  color: #ffffff;
+  color: var(--contrast-color);
   background: #2196f3;
 }
 
@@ -208,7 +214,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--top-text-color);
 }
 
 .portfolio-text {
@@ -216,5 +222,5 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }

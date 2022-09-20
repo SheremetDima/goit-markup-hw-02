@@ -68,7 +68,6 @@ body {
 
 .header-contacs {
   font-weight: 500;
-
   line-height: 1.14x;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -78,6 +77,7 @@ body {
 .header-contacs:focus,
 .header-contacs:active {
   color: var(--accent-color);
+  cursor: pointer;
 }
 
 /*------------- HERO -------------*/
@@ -167,6 +167,7 @@ footer {
 .adres-link:focus,
 .adres-link:active {
   color: var(--accent-color);
+  cursor: pointer;
 }
 
 /*************** PORFOLIO ****************/
@@ -186,6 +187,7 @@ footer {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .filtre-btn:hover {

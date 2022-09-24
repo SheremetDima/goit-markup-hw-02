@@ -200,6 +200,11 @@ footer {
   background: var(--accent-color);
 }
 
+.filtre-btn .current {
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+}
+
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
